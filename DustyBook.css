@@ -1,0 +1,117 @@
+a:link   {color:blue}
+	a:visited{color:black}
+	a:hover  {color:green}
+	a:active {color:yellow}
+ 	
+.grid-container{
+	display: grid;
+
+	grid-template-columns: 100px auto auto 200px;	
+	grid-template-rows: auto auto 100px;
+	
+	grid-gap: 20px 20px;
+	align-content: start;	
+	display: grid;
+
+	padding: 25px;
+	
+	background-image: url("https://scontent.fmcz3-1.fna.fbcdn.net/v/t1.0-9/33384816_2017400728333279_2452622180819664896_n.jpg?_nc_cat=0&oh=d734f9cea5825a08c7689c687e3e2abc&oe=5B821AD1");
+    background-repeat:initial;
+	background-size:200px 200px;
+	
+	}
+	
+	.grid-item	 {
+	text-align: center;
+	border: 0.5px solid black;
+	padding: 10px;
+	font-size: 25px;	
+}
+	
+.item1 {
+grid-column: 1 / 3;
+grid-row: 1 / span 5;
+background-image: url("https://scontent.fmcz3-1.fna.fbcdn.net/v/t1.0-9/33384816_2017400728333279_2452622180819664896_n.jpg?_nc_cat=0&oh=d734f9cea5825a08c7689c687e3e2abc&oe=5B821AD1");
+
+}
+
+.item2 {
+grid-column: 3 / 10;
+grid-row: 1 /  4;
+background-color:orange;
+}
+
+
+.item3{
+grid-column: 1 / 3;
+grid-row: 7/ span 40;
+text-align: left;
+background-color:orange;
+}
+
+.item4 {
+grid-column: 3 / 8;
+grid-row: 5/ span 30;
+font-size: 18px;
+color :white;
+background-image: url("https://st2.depositphotos.com/1518767/12563/i/950/depositphotos_125635132-stock-photo-question-marks-on-chalkboard.jpg");
+}
+
+.item5 {
+grid-column: 8/ 10;
+grid-row: 5/ span 30;
+text-align: left;
+font-size: 18px;
+background-color:orange;
+}
+
+.item6 {
+grid-column: 3/ 8;
+grid-row: 35/ span 12;
+}
+
+.item7 {
+grid-column: 8/ 10;
+grid-row: 35/ span 12;
+background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeURzR7zIq8jZFeybUITTlszJc__f1uIbpuh0UFIzDeH6UbwNgKA");
+}
+
+.item8 {
+grid-column: 3 / 10;
+grid-row: 5/ span 100;
+text-align: center;
+font-size: 20px;
+background-color:white;
+}
+
+.item9 {
+grid-column: 3 / 10;
+grid-row: 5/ span 42;
+font-size: 18px;
+text-align: left;
+background-color:white;
+
+}
+
+.item10 {
+grid-column: 1 / 7;
+grid-row: 1 /  3;
+background-color:orange;
+}
+
+.item11 {
+grid-column: 1 / 7;
+grid-row: 3 / spam 30;
+text-align: left;
+font-size: 18px;
+background-color:white;
+}
+
+ul>li{text-align:left;
+	  list-style: none;
+      margin-bottom:10px;
+      width:150px;
+      float:right;}
+	  
+	  ol{list-style: none;
+	     text-align:center;}
